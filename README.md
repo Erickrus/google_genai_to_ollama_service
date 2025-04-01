@@ -34,7 +34,7 @@ GOOGLE_API_KEY=your-google-api-key
 ```shell
 python3 google_genai_to_ollama_service.py
 ```
-Expose (Optional): Use a tunnel service like ngrok to make it accessible:
+Expose (Optional): Use a tunnel service like ngrok to make it accessible widely:
 ```shell
 ngrok http 11434
 ```
