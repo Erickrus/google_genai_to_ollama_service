@@ -3,6 +3,19 @@
 ## 1. What is the Service?
 This service acts as a proxy, converting Google’s GenAI API (e.g., Gemini models) into an Ollama-compatible API interface. It bridges Google’s generative AI capabilities with Ollama’s local LLM ecosystem, supporting both streaming (real-time output) and non-streaming (full response) modes. This allows tools or clients expecting an Ollama API to leverage Google’s cloud-based models seamlessly.
 
+- POST /api/generate
+
+- POST /api/chat
+
+- POST /api/embeddings
+
+- GET /api/tags
+
+- GET /api/version
+
+
+
+
 ## 2. How to Run
 ### Requirements
 - Python 3.12+
